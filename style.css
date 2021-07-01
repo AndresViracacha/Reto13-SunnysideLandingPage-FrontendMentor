@@ -133,6 +133,9 @@ h1 {
 }
 .graphic-photo .graphic {
   background-image: url(./images/desktop/image-graphic-design.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .graphic-photo .graphic h2 {
   color: var(--desaturatedCyan);
@@ -147,6 +150,9 @@ h1 {
 }
 .graphic-photo .photo {
   background-image: url(./images/desktop/image-photography.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 .graphic-photo .photo h2 {
   color: var(--darkBlue);
@@ -207,8 +213,53 @@ h1 {
   font-size: 16px;
   margin-top: 64px;
 }
+.gallery {
+  display: flex;
+}
+.gallery img {
+  width: 25%;
+}
+
+/*footer*/
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #90d4c5;
+}
+footer svg {
+  margin-top: 40px;
+}
+.footer-logo {
+  filter: invert(27%) sepia(100%) saturate(10078%) hue-rotate(167deg)
+    brightness(64%) contrast(77%);
+  width: 170px;
+  margin-top: 73px;
+}
+footer div {
+  margin-top: 42px;
+  font-family: "Barlow", sans-serif;
+}
+footer div a {
+  text-decoration: none;
+  color: var(--darkCyan);
+  margin: 0px 26px;
+}
+footer div a:hover {
+  color: var(--white);
+}
+footer .social {
+  margin-top: 50px;
+  margin-bottom: 72px;
+}
+footer .social a {
+  margin: 0px 12px;
+}
+footer .social a:hover path {
+  fill: var(--white);
+}
 /*
     font-family: 'Barlow', sans-serif;
     font-family: 'Fraunces', serif;
     700 900 
-*/
+*/ ;
