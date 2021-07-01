@@ -59,6 +59,9 @@ header {
   color: var(--desaturatedBlue);
   border-radius: 100px;
 }
+.header-nav nav .a-last:hover {
+  background-color: #fffbf867;
+}
 .header-image {
   position: absolute;
   top: 358px;
