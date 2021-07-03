@@ -35,6 +35,12 @@ header {
   height: 56px;
   align-items: center;
 }
+.header-nav .label-nav {
+  visibility: hidden;
+}
+.header-nav input {
+  visibility: hidden;
+}
 .header-nav nav {
   display: flex;
   align-items: center;
@@ -267,6 +273,9 @@ footer .social a:hover path {
   }
   header .header-nav {
     position: relative;
+  }
+  .header-nav .label-nav {
+    visibility: visible;
   }
   header .header-nav input {
     visibility: hidden;
